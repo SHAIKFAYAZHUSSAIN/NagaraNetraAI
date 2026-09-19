@@ -1,0 +1,28 @@
+# Raw datasets & archives (per documented data policy: keep originals untracked)
+data/raw/*
+!data/raw/.gitkeep
+*.zip
+
+# Local environment & secrets
+.env
+.env.local
+*.env
+*.env.local
+!.env.example
+!*.env.example
+
+# Python virtual environments & bytecode
+.venv/
+env/
+venv/
+__pycache__/
+*.pyc
+
+# Node & Next.js build artifacts
+node_modules/
+.next/
+out/
+
+# OS artifacts
+.DS_Store
+Thumbs.db
